@@ -44,12 +44,19 @@ bdUI.dullImgShow.defaults = {
 
 
 $('.main-pic-show').dullImgShow({
+
     'overcallback':function(){
+    
      		$('.main-dialog').show();
+     		
      		$('.main-shade').show();
+     		
      },
+     
      'closedcallback':function(){
+     
         	$('.main-dialog').hide();
+        	
         	$('.main-shade').hide();        	
      }
 })
