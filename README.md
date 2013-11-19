@@ -1,8 +1,6 @@
 图片展示插件：
 
-开发技术点 1：图片预计加载
-          
-           2：刷新页面停留当前页
+开发技术点 1：图片预计加载     2：刷新页面停留当前页
            
 默认餐数：
        
@@ -44,6 +42,7 @@ bdUI.dullImgShow.defaults = {
 
 实例化：
 
+
 $('.main-pic-show').dullImgShow({
     'overcallback':function(){
      		$('.main-dialog').show();
@@ -53,4 +52,4 @@ $('.main-pic-show').dullImgShow({
         	$('.main-dialog').hide();
         	$('.main-shade').hide();        	
      }
-});
+})
